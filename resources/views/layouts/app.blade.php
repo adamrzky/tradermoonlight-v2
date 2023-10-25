@@ -39,7 +39,11 @@
         <!-- Brand Logo-->
         <div class="brand-logo">
           <a href="index.html">
-            <img src="{{ asset('assets-fugu/images/logo/logo-white.svg') }}" alt="" class="light-version-logo">
+            {{-- <img src="{{ asset('assets-fugu/images/logo/logo-white.svg') }}" alt="" class="light-version-logo"> --}}
+            <div class="fugu--footer-logo">
+                
+              <img src="{{ asset('assets-fugu/images/logo/TRADERMOONLIGHT1.png') }}" alt="" class="light-version-logo">
+            </div>
           </a>
         </div>
         <div class="menu-block-wrapper">
@@ -360,7 +364,8 @@
           <div class="col-lg-3">
             <div class="fugu--textarea">
               <div class="fugu--footer-logo">
-                <img src="{{ asset('assets-fugu/images/logo/logo-white.svg') }}" alt="" class="light-version-logo">
+                
+                <img src="{{ asset('assets-fugu/images/logo/TRADERMOONLIGHT1.png') }}" alt="" class="light-version-logo">
               </div>
               <p>Discover NFTs by category, track the latest drops, and follow the collections you love to enjoy it!</p>
               <div class="fugu--social-icon">
